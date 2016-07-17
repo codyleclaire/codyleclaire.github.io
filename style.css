@@ -1,1 +1,29 @@
-body {background:blue}
+body {
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    background:#fffff;
+    background-image: url("Sky.jpg");
+    font-family: helvetica;
+    border: 1px solid black;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+table {
+    border-spacing: 2px;
+    text-align: left;
+    font-family: calibri;
+    font-style: italic;
+}
+#header {
+    text-align: center;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: red;
+}
