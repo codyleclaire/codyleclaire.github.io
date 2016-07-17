@@ -3,7 +3,7 @@ body {
     padding-right: 5%;
     padding-bottom: 5%;
     padding-left: 5%;
-    background:#fffff;
+    background: white;
     background-image: url("Sky.jpg");
     font-family: helvetica;
     border: 1px solid black;
@@ -26,4 +26,13 @@ a:link {
 }
 a:visited {
     color: red;
+}
+
+/* Mobiles in Landscape Mode */
+@media only screen
+and (min-width: 320px)
+and (max-width: 480px) {
+  body { background: white;
+}
+
 }
